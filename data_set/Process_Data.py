@@ -1,5 +1,6 @@
 import csv
-import sys
+import torch
+from torch.utils.data import Dataset
 import json
 from Merge_Sort import MergeSort
 
@@ -29,6 +30,47 @@ class Decoder:
             if(vec[i] == 1):
                 return self.decodeArr[i]
         return ''
+
+class NotamDataSet(Dataset):
+    def __init__(self) -> None:
+        super().__init__()
+        
+        dataSetJson = open(file='data_set/dataset.json', mode='r')
+        categoricalJson = open(file='data_set/category.json', mode='r')
+
+        dataSet:dict = json.load(dataSetJson)
+        categories:dict = json.load(categoricalJson)
+
+        xSet = []
+        ySet = []
+
+        for pos, info in dataSet.items():
+            X = [float(num) for num in pos.split(',')]
+
+            r = info['Rocket']
+            Y = categories[r]
+
+            xSet.append(X)
+            ySet.append(Y)
+            
+        dataSetJson.close()
+        categoricalJson.close()
+        
+        device = torch.device(0)
+        
+        self.x = torch.tensor(xSet, dtype=torch.float32, device=device)
+        self.y = torch.tensor(ySet, dtype=torch.float32, device=device)
+        self.n_sample = len(xSet)
+        
+        self.n_features = len(xSet[0])
+        self.n_categories = len(ySet[0])
+        
+    def __getitem__(self, index) -> tuple[torch.Tensor, torch.Tensor]:
+        return self.x[index], self.y[index]
+    
+    def __len__(self):
+        return self.n_sample
+        
 
 def get_categories():
     historyData = open(file='data_set/Historical NOTAMs - data.csv', mode='r')
@@ -89,31 +131,3 @@ def clean_data():
     json.dump(locations, dataJson)
     dataJson.close()
     historyData.close()
-
-
-def get_data() -> tuple[list[float], list[float]]:
-    dataSetJson = open(file='data_set/dataset.json', mode='r')
-    categoricalJson = open(file='data_set/category.json', mode='r')
-
-    dataSet:dict = json.load(dataSetJson)
-    categories:dict = json.load(categoricalJson)
-
-    XSet = []
-    YSet = []
-
-    for pos, info in dataSet.items():
-        X = [float(num) for num in pos.split(',')]
-
-        r = info['Rocket']
-        Y = categories[r]
-
-        XSet.append(X)
-        YSet.append(Y)
-        
-    dataSetJson.close()
-    categoricalJson.close()
-
-    return XSet, YSet
-
-def get_decoder() -> Decoder:
-    return Decoder()
