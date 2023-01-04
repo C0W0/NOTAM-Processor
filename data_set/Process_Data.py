@@ -9,7 +9,7 @@ class Decoder:
         categoricalJson = open(file='data_set/category.json', mode='r')
         categories:dict[str, list[int]] = json.load(categoricalJson)
 
-        typeCount = len(categories)-5 # ignore launch sites
+        typeCount = len(categories)
         self.decodeArr = ['']*typeCount
 
         for rocket, vec in categories.items():
@@ -26,10 +26,15 @@ class Decoder:
         categoricalJson.close()
     
     def __call__(self, vec: list[float]) -> str:
+        maxVal, maxI = 0.0, 0.0
+        
         for i in range(len(vec)):
-            if(vec[i] == 1):
-                return self.decodeArr[i]
-        return ''
+            val = vec[i]
+            if(val > maxVal):
+                maxVal = val
+                maxI = i
+                
+        return self.decodeArr[maxI]
 
 class NotamDataSet(Dataset):
     def __init__(self) -> None:
@@ -45,7 +50,8 @@ class NotamDataSet(Dataset):
         ySet = []
 
         for pos, info in dataSet.items():
-            X = [float(num) for num in pos.split(',')]
+            pos = [float(num) for num in pos.split(',')]
+            X = normalize(pos[0], pos[1])
 
             r = info['Rocket']
             Y = categories[r]
@@ -78,12 +84,19 @@ def get_categories():
 
     dataSet = csv.DictReader(historyData)
 
-    rockets = []
+    rocketCount = {}
     for entry in dataSet:
         rocket = entry['Rocket']
 
-        if(not rocket in rockets):
-            rockets.append(rocket)
+        if(not rocket in rocketCount):
+            rocketCount[rocket] = 1
+        else:
+            rocketCount[rocket] += 1
+    
+    rockets = []
+    for r, count in rocketCount.items():
+        if(count > 3):
+            rockets.append(r)
 
     rockets = MergeSort(rockets)
 
@@ -96,11 +109,11 @@ def get_categories():
         cateVector[i] = 1
         categorized[r] = cateVector
     
-    lsCate = {'JSLC': 0, 'TSLC': 1, 'XSLC': 2, 'WSLS': 3, 'Yellow Sea': 4}
-    for (ls, i) in lsCate.items():
-        cateVector = [0]*5
-        cateVector[i] = 1
-        categorized[ls] = cateVector
+    # lsCate = {'JSLC': 0, 'TSLC': 1, 'XSLC': 2, 'WSLS': 3, 'Yellow Sea': 4}
+    # for (ls, i) in lsCate.items():
+    #     cateVector = [0]*5
+    #     cateVector[i] = 1
+    #     categorized[ls] = cateVector
 
     json.dump(categorized, categoricalJson)
 
@@ -111,8 +124,10 @@ def get_categories():
 def clean_data():
     historyData = open(file='data_set/Historical NOTAMs - data.csv', mode='r')
     dataJson = open(file='data_set/dataset.json', mode='w+')
+    categoryJson = open(file='data_set/category.json', mode='r')
 
     dataSetRaw = csv.DictReader(historyData)
+    categories = json.load(categoryJson)
     locations = {}
 
     for entry in dataSetRaw:
@@ -122,12 +137,19 @@ def clean_data():
         for i in range(1,6):
             notam = entry[f'NOTAM {i}']
 
-            if(not notam.strip() == ''):
-                posData = {}
-                posData['Launch Site'] = ls
-                posData['Rocket'] = r
-                locations[notam] = posData
+            if(notam.strip() == ''):
+                continue
+            
+            posData = {}
+            posData['Launch Site'] = ls
+            posData['Rocket'] = r
+            posData['Include'] = (r in categories)
+            locations[notam] = posData
     
     json.dump(locations, dataJson)
     dataJson.close()
     historyData.close()
+    
+
+def normalize(x: float, y: float) -> list[float]:
+    return [x/40, y/170]
