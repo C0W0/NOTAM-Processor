@@ -3,6 +3,8 @@ import torch
 from torch.utils.data import Dataset
 import json
 from Merge_Sort import MergeSort
+import math
+import random
 
 class Decoder:
     def __init__(self) -> None:
@@ -26,7 +28,7 @@ class Decoder:
         categoricalJson.close()
     
     def __call__(self, vec: list[float]) -> str:
-        maxVal, maxI = 0.0, 0.0
+        maxVal, maxI = 0.0, 0
         
         for i in range(len(vec)):
             val = vec[i]
@@ -35,6 +37,26 @@ class Decoder:
                 maxI = i
                 
         return self.decodeArr[maxI]
+
+    def match(self, vec1: torch.Tensor, vec2: torch.Tensor) -> bool:
+        maxVal = 0.0
+        maxI1 = 0
+        for i in range(len(vec1)):
+            val = vec1[i]
+            if(val > maxVal):
+                maxVal = val
+                maxI1 = i
+        
+        maxVal = 0.0
+        maxI2 = 0
+        for i in range(len(vec2)):
+            val = vec2[i]
+            if(val > maxVal):
+                maxVal = val
+                maxI2 = i
+        
+        return maxI1 == maxI2
+        
 
 class NotamDataSet(Dataset):
     def __init__(self) -> None:
@@ -50,8 +72,10 @@ class NotamDataSet(Dataset):
         ySet = []
 
         for pos, info in dataSet.items():
-            pos = [float(num) for num in pos.split(',')]
-            X = normalize(pos[0], pos[1])
+            if(not info['Include']):
+                continue
+            
+            X = [float(num) for num in pos.split(',')]
 
             r = info['Rocket']
             Y = categories[r]
@@ -65,6 +89,11 @@ class NotamDataSet(Dataset):
         device = torch.device(0)
         
         self.x = torch.tensor(xSet, dtype=torch.float32, device=device)
+        self.xMin = self.x.min()
+        self.x -= self.xMin
+        self.xMax = self.x.max()
+        self.x /= self.xMax
+        
         self.y = torch.tensor(ySet, dtype=torch.float32, device=device)
         self.n_sample = len(xSet)
         
@@ -76,6 +105,11 @@ class NotamDataSet(Dataset):
     
     def __len__(self):
         return self.n_sample
+    
+    def normalize(self, x: torch.Tensor) -> torch.Tensor:
+        x -= self.xMin
+        x /= self.xMax
+        return x
         
 
 def get_categories():
@@ -129,27 +163,67 @@ def clean_data():
     dataSetRaw = csv.DictReader(historyData)
     categories = json.load(categoryJson)
     locations = {}
-
+    posByRocket: dict[str, list[str]] = {}
+    
     for entry in dataSetRaw:
         ls = entry['Launch Site']
         r = entry['Rocket']
         
         for i in range(1,6):
-            notam = entry[f'NOTAM {i}']
-
-            if(notam.strip() == ''):
+            notam = entry[f'NOTAM {i}'].strip()
+            
+            if(notam == ''):
                 continue
             
             posData = {}
             posData['Launch Site'] = ls
             posData['Rocket'] = r
-            posData['Include'] = (r in categories)
+            
+            isDataUsed = r in categories
+            posData['Include'] = isDataUsed
+            
+            while(notam in locations):
+                notam += ' '
+            
             locations[notam] = posData
+            
+            if(isDataUsed):
+                if(not r in posByRocket): posByRocket[r] = []
+                posByRocket[r].append(notam)
+        
+    maxLen = 0
+    for _, notamList in posByRocket.items():
+        maxLen = max(maxLen, len(notamList))
+    
+    for r, notamList in posByRocket.items():
+        duplicateNum = maxLen - len(notamList)
+        duplicateSet = get_random_subset(notamList, duplicateNum, locations)
+        
+        for pos in duplicateSet:
+            posData = {}
+            posData['Launch Site'] = 'duplicate'
+            posData['Rocket'] = r
+            posData['Include'] = True
+            
+            locations[pos] = posData
+            notamList.append(posData)
     
     json.dump(locations, dataJson)
     dataJson.close()
     historyData.close()
-    
 
-def normalize(x: float, y: float) -> list[float]:
-    return [x/40, y/170]
+
+def get_random_subset(sourceSet: list, subsetSize: int, mainDataSet: dict = {}) -> list:
+    subset = []
+    setSize = len(sourceSet)
+    for _ in range(subsetSize):
+        duplicate = sourceSet[int(random.random()*setSize)]+' '
+        
+        while(duplicate in subset or duplicate in mainDataSet):
+            duplicate += ' '
+            
+        subset.append(duplicate)
+    
+    return subset
+
+clean_data()
