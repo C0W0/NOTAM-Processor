@@ -210,7 +210,7 @@ def clean_data():
     
     for r, notamList in posByRocket.items():
         duplicateNum = maxLen - len(notamList)
-        duplicateSet = get_random_subset(notamList, duplicateNum, locations)
+        duplicateSet = get_random_subset(notamList, duplicateNum)
         
         for pos in duplicateSet:
             locations[pos]['Rocket'].append(r)
@@ -220,7 +220,7 @@ def clean_data():
     historyData.close()
 
 
-def get_random_subset(sourceSet: list, subsetSize: int, mainDataSet: dict = {}) -> list:
+def get_random_subset(sourceSet: list, subsetSize: int) -> list:
     subset = []
     setSize = len(sourceSet)
     for _ in range(subsetSize):
@@ -229,3 +229,89 @@ def get_random_subset(sourceSet: list, subsetSize: int, mainDataSet: dict = {}) 
         subset.append(duplicate)
     
     return subset
+
+def plot_google_earth():
+    originalKML = open('data_set/NOTAM.kml', mode='r')
+    lines = originalKML.readlines()
+    
+    isTagOpen = False
+    tagLines = []
+    newLines = []
+    
+    for l in lines:
+        if(l.strip().startswith('<Placemark')):
+            isTagOpen = True
+        
+        if(isTagOpen):
+            tagLines.append(l)
+        else:
+            newLines.append(l)
+        
+        if(l.strip().startswith('</Placemark')):
+            isTagOpen = False
+            
+            dataSetJson = open(file='data_set/dataset.json', mode='r')
+            dataSet:dict = json.load(dataSetJson)
+            
+            markI = 0
+            for pos, _ in dataSet.items():
+                newLines.extend(build_placemark(tagLines, [num.strip() for num in pos.split(',')], markI))
+                markI += 1
+                
+    newKML = open('data_set/NOTAM_Imported.kml', mode='w+')
+    newKML.writelines(newLines)
+    
+    newKML.close()
+    originalKML.close()
+
+
+def build_placemark(sample: list[str], coordinate: list[str], markIndex: int) -> list[str]:
+    sampleLength = len(sample)
+    coordStartToken = '<coordinates>'
+    coordEndToken = '</coordinates>'
+    
+    longiStartToken = '<longitude>'
+    longiEndToken = '</longitude>'
+    latiStartToken = '<latitude>'
+    latiEndToken = '</latitude>'
+    
+    newMark = []
+    for i in range(sampleLength):
+        line = sample[i]
+        
+        if(i == 0):
+            newMark.append(line.replace('id="pin1"', f'id="pin{markIndex}"'))
+            continue
+            
+        linePlain = line.strip()
+        
+        if(linePlain.startswith(longiStartToken)):
+            startIndex = line.index(longiStartToken) + len(longiStartToken)
+            endIndex = line.index(longiEndToken)
+            
+            oldPos = line[startIndex:endIndex]
+            newLine = line.replace(oldPos, coordinate[1])
+            
+            newMark.append(newLine)
+            
+        elif(linePlain.startswith(latiStartToken)):
+            startIndex = line.index(latiStartToken) + len(latiStartToken)
+            endIndex = line.index(latiEndToken)
+            
+            oldPos = line[startIndex:endIndex]
+            newLine = line.replace(oldPos, coordinate[0])
+            
+            newMark.append(newLine)
+            
+        elif(linePlain.startswith(coordStartToken)):
+            startIndex = line.index(coordStartToken) + len(coordStartToken)
+            endIndex = line.index(coordEndToken)
+            
+            oldPos = line[startIndex:endIndex]
+            newLine = line.replace(oldPos, f'{coordinate[1]},{coordinate[0]},320')
+            
+            newMark.append(newLine)
+        else:
+            newMark.append(line)
+    
+    return newMark
