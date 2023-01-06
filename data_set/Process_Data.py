@@ -3,7 +3,7 @@ import torch
 from torch.utils.data import Dataset
 import json
 from Merge_Sort import MergeSort
-import math
+import numpy as np
 import random
 
 class Decoder:
@@ -77,11 +77,18 @@ class NotamDataSet(Dataset):
             
             X = [float(num) for num in pos.split(',')]
 
-            r = info['Rocket']
-            Y = categories[r]
+            rockets:list = info['Rocket']
+            rocketsCount = len(rockets)
+            Y:np.ndarray = np.zeros(len(categories[rockets[0]]))
+            
+            for r in rockets:
+                Y += np.array(categories[r])
+            
+            Y /= rocketsCount
 
-            xSet.append(X)
-            ySet.append(Y)
+            for _ in range(rocketsCount):
+                xSet.append(X)
+                ySet.append(Y.tolist())
             
         dataSetJson.close()
         categoricalJson.close()
@@ -174,16 +181,22 @@ def clean_data():
             
             if(notam == ''):
                 continue
+
+            isDataUsed = r in categories
+
+            if(notam in locations):
+                if(locations[notam]['Include'] and isDataUsed):
+                    locations[notam]['Rocket'].append(r)
+                    posByRocket[r].append(notam)
+                    continue
+                else:
+                    notam += ' '
             
             posData = {}
             posData['Launch Site'] = ls
-            posData['Rocket'] = r
+            posData['Rocket'] = [r]
             
-            isDataUsed = r in categories
             posData['Include'] = isDataUsed
-            
-            while(notam in locations):
-                notam += ' '
             
             locations[notam] = posData
             
@@ -200,13 +213,7 @@ def clean_data():
         duplicateSet = get_random_subset(notamList, duplicateNum, locations)
         
         for pos in duplicateSet:
-            posData = {}
-            posData['Launch Site'] = 'duplicate'
-            posData['Rocket'] = r
-            posData['Include'] = True
-            
-            locations[pos] = posData
-            notamList.append(posData)
+            locations[pos]['Rocket'].append(r)
     
     json.dump(locations, dataJson)
     dataJson.close()
@@ -217,13 +224,8 @@ def get_random_subset(sourceSet: list, subsetSize: int, mainDataSet: dict = {}) 
     subset = []
     setSize = len(sourceSet)
     for _ in range(subsetSize):
-        duplicate = sourceSet[int(random.random()*setSize)]+' '
-        
-        while(duplicate in subset or duplicate in mainDataSet):
-            duplicate += ' '
+        duplicate = sourceSet[int(random.random()*setSize)]
             
         subset.append(duplicate)
     
     return subset
-
-clean_data()

@@ -1,1 +1,1555 @@
-{"23.77835, 100.410275": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "12.89465, 96.754475": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.408425, 105.7444": {"Launch Site": "XSLC", "Rocket": "CZ-11", "Include": false}, "17.187825, 93.18415": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "27.185375, 107.880525": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.83325, 114.023525": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "36.0041, 104.3197": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "27.185375, 107.880525 ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.83325, 114.023525 ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "36.0041, 104.3197 ": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "36.0041, 104.3197  ": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "35.315, 98.274125": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "33.230575, 109.30995": {"Launch Site": "TSLC", "Rocket": "CZ-4B", "Include": true}, "31.29936, 109.55084": {"Launch Site": "TSLC", "Rocket": "CZ-6", "Include": true}, "36.047, 104.270275": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "26.466375, 107.026475": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "36.21465, 104.3481": {"Launch Site": "JSLC", "Rocket": "CZ-4B", "Include": true}, "28.15, 102.02": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.185375, 107.8806": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.8333, 114.023575": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "35.1031, 122.4103": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "33.16805, 109.485325": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "30.494775, 108.84825": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "39.338183, 107.55465": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "38.67542857, 109.2324": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "28.15, 102.02 ": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "26.46645, 107.02655": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "33.21045, 110.35505": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "29.9461, 109.844425": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "35.276675, 98.1632": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "16.803225, 92.492775": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "28.15, 102.02  ": {"Launch Site": "XSLC", "Rocket": "CZ-3C/E", "Include": false}, "27.1803, 107.895875": {"Launch Site": "XSLC", "Rocket": "CZ-3C/E", "Include": false}, "25.8333, 114.023575 ": {"Launch Site": "XSLC", "Rocket": "CZ-3C/E", "Include": false}, "28.15, 102.02   ": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "26.46645, 107.02655 ": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "35.25615, 98.6213": {"Launch Site": "JSLC", "Rocket": "CZ-2D", "Include": true}, "33.3056, 98.2491": {"Launch Site": "JSLC", "Rocket": "CZ-2D", "Include": true}, "0.85972, 91.21422": {"Launch Site": "JSLC", "Rocket": "Hyperbola-1", "Include": false}, "27.185375, 107.8806 ": {"Launch Site": "TSLC", "Rocket": "CZ-6", "Include": true}, "28.15, 102.02    ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.185375, 107.880": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.8333, 114.023575  ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "29.903275, 110.3422": {"Launch Site": "TSLC", "Rocket": "CZ-4B", "Include": true}, "14.423125, 109.775775": {"Launch Site": "TSLC", "Rocket": "CZ-4B", "Include": true}, "25.1565, 103.21185": {"Launch Site": "JSLC", "Rocket": "CZ-2C", "Include": true}, "28.15, 102.02     ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.185375, 107.8806  ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.8333, 114.073575": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "14.014875, 109.82485": {"Launch Site": "TSLC", "Rocket": "CZ-4C", "Include": true}, "28.15, 102.02      ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.185375, 107.8806   ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.8333, 114.023575   ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "19.37, 110.57": {"Launch Site": "WSLS", "Rocket": "CZ-7", "Include": false}, "39.48945, 99.9204": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "30.80395, 97.4434": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02       ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "24.262875, 105.5775": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "15.427725, 113.16105": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "38.2577, 110.6144": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "28.067, 113.672": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "39.48945, 99.9204 ": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "38.2577, 110.6144 ": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103 ": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "28.15, 102.02        ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.185375, 107.8806    ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.8333, 114.023575    ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "39.48945, 99.9204  ": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "30.80395, 97.4434 ": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "33.12745, 97.83965": {"Launch Site": "JSLC", "Rocket": "CZ-2C", "Include": true}, "31.791125, 109.763125": {"Launch Site": "TSLC", "Rocket": "CZ-6", "Include": true}, "30.787975, 109.408625": {"Launch Site": "TSLC", "Rocket": "CZ-6", "Include": true}, "28.15, 102.02         ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "26.49815, 107.403625": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "33.595425, 110.374375": {"Launch Site": "TSLC", "Rocket": "CZ-4B", "Include": true}, "29.66825, 109.558375": {"Launch Site": "TSLC", "Rocket": "CZ-4B", "Include": true}, "18.78453, 107.11475": {"Launch Site": "TSLC", "Rocket": "CZ-4B", "Include": true}, "35.3195, 98.2164": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "30.8066, 97.44395": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "17.410825, 93.128975": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "39.508125, 99.9335": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "35.1573625, 98.688725": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02          ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.185375, 107.8806     ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.8333, 114.023575     ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "22.27745, 126.6174": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "35.3195, 98.17195": {"Launch Site": "JSLC", "Rocket": "CZ-4B", "Include": true}, "32.883675, 97.292025": {"Launch Site": "JSLC", "Rocket": "CZ-4B", "Include": true}, "17.64165, 93.47065": {"Launch Site": "JSLC", "Rocket": "CZ-4B", "Include": true}, "28.15, 102.02           ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.185375, 107.8806      ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.8333, 114.023575      ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "22.27745, 126.6174 ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "34.8445, 111.531875": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "19.37, 110.57 ": {"Launch Site": "WSLS", "Rocket": "CZ-7A", "Include": false}, "19.208825, 119.2296": {"Launch Site": "WSLS", "Rocket": "CZ-7A", "Include": false}, "18.846775, 122.90105": {"Launch Site": "WSLS", "Rocket": "CZ-7A", "Include": false}, "16.5775, 139.8": {"Launch Site": "WSLS", "Rocket": "CZ-7A", "Include": false}, "29.7988, 110.464925": {"Launch Site": "TSLC", "Rocket": "CZ-4C", "Include": true}, "13.844975, 109.738975": {"Launch Site": "TSLC", "Rocket": "CZ-4C", "Include": true}, "35.2333, 99.347425": {"Launch Site": "JSLC", "Rocket": "CZ-2D", "Include": true}, "32.7727, 99.1759": {"Launch Site": "JSLC", "Rocket": "CZ-2D", "Include": true}, "-7.741625, 90.268625": {"Launch Site": "JSLC", "Rocket": "CZ-2D", "Include": true}, "28.15, 102.02            ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.185375, 107.8806       ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.8333, 114.023575       ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "22.288675, 126.589975": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "33.15425, 110.2593": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "29.827925, 109.600975": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "35.367925, 98.202125": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "17.4423, 93.25527": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "35.367925, 98.202125 ": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "17.4423, 93.25527 ": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "19.37, 110.57  ": {"Launch Site": "WSLS", "Rocket": "CZ-8A", "Include": false}, "8.41985, 109.560583": {"Launch Site": "WSLS", "Rocket": "CZ-8A", "Include": false}, "28.15, 102.02             ": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "17.446175, 110.807775": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "36.1367, 104.2322": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "31.6975, 109.79": {"Launch Site": "TSLC", "Rocket": "CZ-6A", "Include": false}, "19.14012, 107.22313": {"Launch Site": "TSLC", "Rocket": "CZ-6A", "Include": false}, "39.45855, 102.7733": {"Launch Site": "JSLC", "Rocket": "CZ-11", "Include": false}, "-31.68865, 83.602025": {"Launch Site": "JSLC", "Rocket": "CZ-11", "Include": false}, "35.32, 98.22": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "17.2076, 92.9938": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "27.185, 107.8825": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "21.97735, 127.598125": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "32.89, 110.8375": {"Launch Site": "TSLC", "Rocket": "CZ-4C", "Include": true}, "14.59986, 109.6906": {"Launch Site": "TSLC", "Rocket": "CZ-4C", "Include": true}, "32.11, 123.48": {"Launch Site": "Yellow Sea", "Rocket": "CZ-11H", "Include": false}, "15.938, 117.998": {"Launch Site": "Yellow Sea", "Rocket": "CZ-11H", "Include": false}, "32.45, 97.7875": {"Launch Site": "JSLC", "Rocket": "CZ-2C", "Include": true}, "-38.555, 100.91": {"Launch Site": "JSLC", "Rocket": "CZ-2C", "Include": true}, "29.9475, 109.86": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "19.37, 110.57   ": {"Launch Site": "WSLS", "Rocket": "CZ-7", "Include": false}, "13.768, 117.554": {"Launch Site": "WSLS", "Rocket": "CZ-7", "Include": false}, "14.208, 117.064": {"Launch Site": "WSLS", "Rocket": "CZ-7", "Include": false}, "14.976, 116.224": {"Launch Site": "WSLS", "Rocket": "CZ-7", "Include": false}, "14.648, 116.64": {"Launch Site": "WSLS", "Rocket": "CZ-7", "Include": false}, "3.422, 91.34": {"Launch Site": "JSLC", "Rocket": "Hyperbola-1", "Include": false}, "40.58, 100.18": {"Launch Site": "JSLC", "Rocket": "CZ-2C", "Include": true}, "36.11, 100.1675": {"Launch Site": "JSLC", "Rocket": "CZ-2C", "Include": true}, "32.7075, 100.2225": {"Launch Site": "JSLC", "Rocket": "CZ-2C", "Include": true}, "-37.755, 100.4675": {"Launch Site": "JSLC", "Rocket": "CZ-2C", "Include": true}, "-37.7511, 100.96525": {"Launch Site": "JSLC", "Rocket": "CZ-2C", "Include": true}, "28.15, 102.02              ": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "24.3175, 105.4325": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "18.0475, 111.2225": {"Launch Site": "XSLC", "Rocket": "CZ-2C", "Include": true}, "39.37, 107.285": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "38.675, 109.2324": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103  ": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "28.067, 113.672 ": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "-7.828, 90.302": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02               ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "26.4925, 107.435": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "31.3875, 97.025": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "17.15, 93.476": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "-7.74, 90.335": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "28.1444, 102.0137": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.185, 107.8825 ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.835, 114.025": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "22.288, 126.568": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "38.79, 109.625": {"Launch Site": "TSLC", "Rocket": "CZ-2C", "Include": true}, "33.79, 110.215": {"Launch Site": "TSLC", "Rocket": "CZ-2C", "Include": true}, "19.37, 110.57    ": {"Launch Site": "WSLS", "Rocket": "CZ-5B", "Include": false}, "13.736, 117.544": {"Launch Site": "WSLS", "Rocket": "CZ-5B", "Include": false}, "12.482, 119.074": {"Launch Site": "WSLS", "Rocket": "CZ-5B", "Include": false}, "39.4375, 99.7475": {"Launch Site": "JSLC", "Rocket": "ZK-1A", "Include": false}, "-11.1275, 88.325": {"Launch Site": "JSLC", "Rocket": "ZK-1A", "Include": false}, "28.15, 102.02                ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "26.4925, 107.435 ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "29.915, 110.2825": {"Launch Site": "TSLC", "Rocket": "CZ-4B", "Include": true}, "14.722, 109.67878": {"Launch Site": "TSLC", "Rocket": "CZ-4B", "Include": true}, "38.565, 107.4175": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "38.37, 107.78": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "37.5975, 109.55": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "11.3083, 88.8017": {"Launch Site": "JSLC", "Rocket": "Ceres-1", "Include": false}, "29.8775, 109.4525": {"Launch Site": "TSLC", "Rocket": "CZ-6", "Include": true}, "-39.61, 94.2975": {"Launch Site": "TSLC", "Rocket": "CZ-6", "Include": true}, "28.15, 102.02                 ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "26.49, 107.435": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "28.15, 102.02                  ": {"Launch Site": "XSLC", "Rocket": "KZ-1A", "Include": true}, "25.7725, 113.48": {"Launch Site": "XSLC", "Rocket": "KZ-1A", "Include": true}, "29.9525, 110.0": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "16.53, 93.094": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "34.845, 111.535": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "-18.51, 155.99": {"Launch Site": "JSLC", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02                   ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "26.49, 107.435 ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "19.37, 110.57     ": {"Launch Site": "WSLS", "Rocket": "CZ-7A", "Include": false}, "19.166, 119.44": {"Launch Site": "WSLS", "Rocket": "CZ-7A", "Include": false}, "18.758, 123.37": {"Launch Site": "WSLS", "Rocket": "CZ-7A", "Include": false}, "32.8475, 97.6": {"Launch Site": "JSLC", "Rocket": "CZ-2D", "Include": true}, "37.42, 111.215": {"Launch Site": "TSLC", "Rocket": "KZ-1A", "Include": true}, "28.89, 109.405": {"Launch Site": "TSLC", "Rocket": "KZ-1A", "Include": true}, "-41.22, 94.29": {"Launch Site": "TSLC", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02                    ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "26.49, 107.435  ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "29.8725, 109.445": {"Launch Site": "TSLC", "Rocket": "CZ-6", "Include": true}, "-39.405, 94.4875": {"Launch Site": "TSLC", "Rocket": "CZ-6", "Include": true}, "34.0225, 123.615": {"Launch Site": "Yellow Sea", "Rocket": "CZ-11H", "Include": false}, "21.14, 134.595": {"Launch Site": "Yellow Sea", "Rocket": "CZ-11H", "Include": false}, "-23.87, 164.448": {"Launch Site": "Yellow Sea", "Rocket": "CZ-11H", "Include": false}, "32.7725, 97.4225": {"Launch Site": "JSLC", "Rocket": "CZ-2D", "Include": true}, "33.7875, 110.215": {"Launch Site": "TSLC", "Rocket": "CZ-2C", "Include": true}, "28.9, 108.855": {"Launch Site": "TSLC", "Rocket": "CZ-2C", "Include": true}, "28.15, 102.02                     ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "26.49, 107.435   ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "35.8225, 104.245": {"Launch Site": "JSLC", "Rocket": "CZ-2D", "Include": true}, "19.37, 110.57      ": {"Launch Site": "WSLS", "Rocket": "CZ-5B", "Include": false}, "13.896, 117.452": {"Launch Site": "WSLS", "Rocket": "CZ-5B", "Include": false}, "12.548, 118.918": {"Launch Site": "WSLS", "Rocket": "CZ-5B", "Include": false}, "28.15, 102.02                      ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "27.1875, 107.8825": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "25.835, 114.025 ": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "21.98, 127.6": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "21.43, 128.6": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "19.5047, 107.2211": {"Launch Site": "TSLC", "Rocket": "CZ-6A", "Include": false}, "19.37, 110.57       ": {"Launch Site": "WSLS", "Rocket": "CZ-7", "Include": false}, "14.3843, 116.8386": {"Launch Site": "WSLS", "Rocket": "CZ-7", "Include": false}, "36.1375, 104.235": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "14.3843, 116.8386 ": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "-8.87, 88.9725": {"Launch Site": "JSLC", "Rocket": "Ceres-1", "Include": false}, "8.8675, 88.9725": {"Launch Site": "JSLC", "Rocket": "Ceres-1", "Include": false}, "28.15, 102.02                       ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "26.49, 107.435    ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "37.9325375, 110.414325": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "34.50595, 122.31235": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "29.2687375, 108.8283875": {"Launch Site": "JSLC", "Rocket": "CZ-2F", "Include": true}, "39.4925, 100.105": {"Launch Site": "JSLC", "Rocket": "KZ-11", "Include": false}, "38.28, 99.39": {"Launch Site": "JSLC", "Rocket": "KZ-11", "Include": false}, "33.165, 109.61": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "30.38, 108.9625": {"Launch Site": "TSLC", "Rocket": "CZ-2D", "Include": true}, "37.2, 123.43": {"Launch Site": "Yellow Sea", "Rocket": "JieLong-3", "Include": false}, "36.345, 123.305": {"Launch Site": "Yellow Sea", "Rocket": "JieLong-3", "Include": false}, "-14.345, 118.4775": {"Launch Site": "Yellow Sea", "Rocket": "JieLong-3", "Include": false}, "36.185, 104.2875": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "32.49, 107.075": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "19.3025, 115.1175": {"Launch Site": "JSLC", "Rocket": "CZ-4C", "Include": true}, "34.105, 98.21": {"Launch Site": "JSLC", "Rocket": "ZQ-2", "Include": false}, "28.15, 102.02                        ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "26.49, 107.435     ": {"Launch Site": "XSLC", "Rocket": "CZ-2D", "Include": true}, "28.15, 102.02                         ": {"Launch Site": "XSLC", "Rocket": "CZ-11", "Include": false}, "27.2825, 104.345": {"Launch Site": "XSLC", "Rocket": "CZ-11", "Include": false}, "22.0244, 122.8389": {"Launch Site": "XSLC", "Rocket": "CZ-11", "Include": false}, "-11.534, 171.534": {"Launch Site": "XSLC", "Rocket": "CZ-11", "Include": false}, "18.6107, 107.08374": {"Launch Site": "TSLC", "Rocket": "CZ-4C", "Include": true}, "15.43, 113.265": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "11.134, 116.542": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "11.05, 116.692": {"Launch Site": "XSLC", "Rocket": "CZ-3B/E", "Include": true}, "18.6107, 107.08374 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "13.844975, 109.738975 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "31.3875, 97.025 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "30.8066, 97.44395 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "35.315, 98.274125 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "17.187825, 93.18415 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "17.187825, 93.18415  ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "35.367925, 98.202125  ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "17.4423, 93.25527  ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "16.53, 93.094 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "35.3195, 98.2164 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "16.53, 93.094  ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "-7.74, 90.335 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "30.8066, 97.44395  ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "36.047, 104.270275 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "35.3195, 98.2164  ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "35.3195, 98.2164   ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "17.2076, 92.9938 ": {"Launch Site": "duplicate", "Rocket": "CZ-4C", "Include": true}, "29.66825, 109.558375 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "17.64165, 93.47065 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "29.903275, 110.3422 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "33.230575, 109.30995 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "14.423125, 109.775775 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "14.423125, 109.775775  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "14.722, 109.67878 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "17.64165, 93.47065  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "32.883675, 97.292025 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "14.722, 109.67878  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "14.423125, 109.775775   ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "14.423125, 109.775775    ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "35.3195, 98.17195 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "29.66825, 109.558375  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "35.3195, 98.17195  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "32.883675, 97.292025  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "18.78453, 107.11475 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "17.64165, 93.47065   ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "17.64165, 93.47065    ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "14.722, 109.67878   ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "14.722, 109.67878    ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "29.66825, 109.558375   ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "33.595425, 110.374375 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "29.915, 110.2825 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "35.3195, 98.17195   ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "18.78453, 107.11475  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "29.66825, 109.558375    ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "33.595425, 110.374375  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "36.21465, 104.3481 ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "14.423125, 109.775775     ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "32.883675, 97.292025   ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "29.66825, 109.558375     ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "32.883675, 97.292025    ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "18.78453, 107.11475   ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "33.230575, 109.30995  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "32.883675, 97.292025     ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "29.915, 110.2825  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "36.21465, 104.3481  ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "35.3195, 98.17195    ": {"Launch Site": "duplicate", "Rocket": "CZ-4B", "Include": true}, "-39.61, 94.2975 ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.405, 94.4875 ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8775, 109.4525 ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.61, 94.2975  ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "27.185375, 107.8806        ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8725, 109.445 ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8725, 109.445  ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "27.185375, 107.8806         ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "27.185375, 107.8806          ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8775, 109.4525  ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.405, 94.4875  ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.29936, 109.55084 ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8775, 109.4525   ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.61, 94.2975   ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.29936, 109.55084  ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.405, 94.4875   ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8775, 109.4525    ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.61, 94.2975    ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.61, 94.2975     ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8775, 109.4525     ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.405, 94.4875    ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8725, 109.445   ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8725, 109.445    ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "27.185375, 107.8806           ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.791125, 109.763125 ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.791125, 109.763125  ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8775, 109.4525      ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.791125, 109.763125   ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.61, 94.2975      ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "30.787975, 109.408625 ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "27.185375, 107.8806            ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8725, 109.445     ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "27.185375, 107.8806             ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "27.185375, 107.8806              ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "27.185375, 107.8806               ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.791125, 109.763125    ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "-39.61, 94.2975       ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.791125, 109.763125     ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8775, 109.4525       ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.29936, 109.55084   ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "29.8725, 109.445      ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.29936, 109.55084    ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "31.29936, 109.55084     ": {"Launch Site": "duplicate", "Rocket": "CZ-6", "Include": true}, "26.466375, 107.026475 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "36.11, 100.1675 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "33.79, 110.215 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "36.11, 100.1675  ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "-38.555, 100.91 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "33.7875, 110.215 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "28.15, 102.02                          ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "28.9, 108.855 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "33.12745, 97.83965 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "33.79, 110.215  ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "38.79, 109.625 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "28.15, 102.02                           ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "32.45, 97.7875 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "-37.7511, 100.96525 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "38.79, 109.625  ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "28.15, 102.02                            ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "28.15, 102.02                             ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "26.46645, 107.02655  ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "33.12745, 97.83965  ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "40.58, 100.18 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "17.446175, 110.807775 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "28.15, 102.02                              ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "36.11, 100.1675   ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "32.7075, 100.2225 ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "32.7075, 100.2225  ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "17.446175, 110.807775  ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "26.46645, 107.02655   ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "33.12745, 97.83965   ": {"Launch Site": "duplicate", "Rocket": "CZ-2C", "Include": true}, "28.15, 102.02                               ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "26.49, 107.435      ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "28.15, 102.02                                ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "38.2577, 110.6144  ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "28.15, 102.02                                 ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "28.15, 102.02                                  ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "28.15, 102.02                                   ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "26.4925, 107.435  ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "29.9475, 109.86 ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "33.165, 109.61 ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "32.8475, 97.6 ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "29.9525, 110.0 ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "26.49, 107.435       ": {"Launch Site": "duplicate", "Rocket": "CZ-2D", "Include": true}, "39.48945, 99.9204   ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "34.50595, 122.31235 ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103   ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "29.2687375, 108.8283875 ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "28.067, 113.672  ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "38.37, 107.78 ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "39.37, 107.285 ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "38.565, 107.4175 ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "38.67542857, 109.2324 ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103    ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "38.675, 109.2324 ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "37.5975, 109.55 ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "28.067, 113.672   ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "37.9325375, 110.414325 ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "39.48945, 99.9204    ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103     ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103      ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "37.9325375, 110.414325  ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "28.067, 113.672    ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103       ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "28.067, 113.672     ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103        ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "38.67542857, 109.2324  ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "37.9325375, 110.414325   ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "38.565, 107.4175  ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "37.5975, 109.55  ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103         ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "28.067, 113.672      ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "37.5975, 109.55   ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "29.2687375, 108.8283875  ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "29.2687375, 108.8283875   ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "29.2687375, 108.8283875    ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "28.067, 113.672       ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "38.37, 107.78  ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "35.1031, 122.4103          ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "38.2577, 110.6144   ": {"Launch Site": "duplicate", "Rocket": "CZ-2F", "Include": true}, "28.89, 109.405 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "28.89, 109.405  ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "39.508125, 99.9335 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02                                    ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "30.80395, 97.4434  ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "35.1573625, 98.688725 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "-7.828, 90.302 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "34.845, 111.535 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "39.48945, 99.9204     ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "35.1573625, 98.688725  ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "30.80395, 97.4434   ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02                                     ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "-18.51, 155.99 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "34.845, 111.535  ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "37.42, 111.215 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "28.89, 109.405   ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "30.80395, 97.4434    ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02                                      ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "30.80395, 97.4434     ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "25.7725, 113.48 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "39.508125, 99.9335  ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02                                       ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "39.48945, 99.9204      ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "-7.828, 90.302  ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "28.15, 102.02                                        ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "34.8445, 111.531875 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "37.42, 111.215  ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "39.508125, 99.9335   ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "39.48945, 99.9204       ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "-18.51, 155.99  ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "34.845, 111.535   ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "39.48945, 99.9204        ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "39.508125, 99.9335    ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "28.89, 109.405    ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "-41.22, 94.29 ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}, "25.7725, 113.48  ": {"Launch Site": "duplicate", "Rocket": "KZ-1A", "Include": true}}
+{
+    "23.77835, 100.410275": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "12.89465, 96.754475": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "27.408425, 105.7444": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-11"
+        ],
+        "Include": false
+    },
+    "17.187825, 93.18415": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "27.185375, 107.880525": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E",
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "25.83325, 114.023525": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E",
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "36.0041, 104.3197": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C",
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "35.315, 98.274125": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "33.230575, 109.30995": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "31.29936, 109.55084": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6"
+        ],
+        "Include": true
+    },
+    "36.047, 104.270275": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "26.466375, 107.026475": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "36.21465, 104.3481": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "28.15, 102.02": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-2D",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D",
+            "KZ-1A",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-3B/E",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2D",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "27.185375, 107.8806": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E",
+            "CZ-6",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6"
+        ],
+        "Include": true
+    },
+    "25.8333, 114.023575": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E",
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "35.1031, 122.4103": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "33.16805, 109.485325": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "30.494775, 108.84825": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "39.338183, 107.55465": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "38.67542857, 109.2324": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "26.46645, 107.02655": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "33.21045, 110.35505": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D",
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "29.9461, 109.844425": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "35.276675, 98.1632": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "16.803225, 92.492775": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "28.15, 102.02 ": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-11"
+        ],
+        "Include": false
+    },
+    "27.1803, 107.895875": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3C/E"
+        ],
+        "Include": false
+    },
+    "25.8333, 114.023575 ": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3C/E"
+        ],
+        "Include": false
+    },
+    "35.25615, 98.6213": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "33.3056, 98.2491": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "0.85972, 91.21422": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "Hyperbola-1"
+        ],
+        "Include": false
+    },
+    "27.185375, 107.880": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "29.903275, 110.3422": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "14.423125, 109.775775": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "25.1565, 103.21185": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "25.8333, 114.073575": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "14.014875, 109.82485": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "19.37, 110.57": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7"
+        ],
+        "Include": false
+    },
+    "39.48945, 99.9204": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-1A",
+            "CZ-2F",
+            "KZ-1A",
+            "CZ-2F",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "30.80395, 97.4434": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "24.262875, 105.5775": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "15.427725, 113.16105": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "38.2577, 110.6144": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "28.067, 113.672": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D",
+            "CZ-2F",
+            "CZ-2D",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "33.12745, 97.83965": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "31.791125, 109.763125": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6"
+        ],
+        "Include": true
+    },
+    "30.787975, 109.408625": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6"
+        ],
+        "Include": true
+    },
+    "26.49815, 107.403625": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "33.595425, 110.374375": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "29.66825, 109.558375": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "18.78453, 107.11475": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "35.3195, 98.2164": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "30.8066, 97.44395": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "17.410825, 93.128975": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "39.508125, 99.9335": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "35.1573625, 98.688725": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "22.27745, 126.6174": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E",
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "35.3195, 98.17195": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "32.883675, 97.292025": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "17.64165, 93.47065": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "34.8445, 111.531875": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "19.37, 110.57 ": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7"
+        ],
+        "Include": false
+    },
+    "19.208825, 119.2296": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7A"
+        ],
+        "Include": false
+    },
+    "18.846775, 122.90105": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7A"
+        ],
+        "Include": false
+    },
+    "16.5775, 139.8": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7A"
+        ],
+        "Include": false
+    },
+    "29.7988, 110.464925": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "13.844975, 109.738975": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "35.2333, 99.347425": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "32.7727, 99.1759": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2D",
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "-7.741625, 90.268625": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2D",
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "22.288675, 126.589975": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "33.15425, 110.2593": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "29.827925, 109.600975": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "35.367925, 98.202125": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "17.4423, 93.25527": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "8.41985, 109.560583": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-8A"
+        ],
+        "Include": false
+    },
+    "17.446175, 110.807775": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "36.1367, 104.2322": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "31.6975, 109.79": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6A"
+        ],
+        "Include": false
+    },
+    "19.14012, 107.22313": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6A"
+        ],
+        "Include": false
+    },
+    "39.45855, 102.7733": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-11"
+        ],
+        "Include": false
+    },
+    "-31.68865, 83.602025": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-11"
+        ],
+        "Include": false
+    },
+    "35.32, 98.22": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "17.2076, 92.9938": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "27.185, 107.8825": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E",
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "21.97735, 127.598125": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "32.89, 110.8375": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "14.59986, 109.6906": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "32.11, 123.48": {
+        "Launch Site": "Yellow Sea",
+        "Rocket": [
+            "CZ-11H"
+        ],
+        "Include": false
+    },
+    "15.938, 117.998": {
+        "Launch Site": "Yellow Sea",
+        "Rocket": [
+            "CZ-11H"
+        ],
+        "Include": false
+    },
+    "32.45, 97.7875": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "-38.555, 100.91": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "29.9475, 109.86": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "13.768, 117.554": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7"
+        ],
+        "Include": false
+    },
+    "14.208, 117.064": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7"
+        ],
+        "Include": false
+    },
+    "14.976, 116.224": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7"
+        ],
+        "Include": false
+    },
+    "14.648, 116.64": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7"
+        ],
+        "Include": false
+    },
+    "3.422, 91.34": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "Hyperbola-1"
+        ],
+        "Include": false
+    },
+    "40.58, 100.18": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "36.11, 100.1675": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "32.7075, 100.2225": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "-37.755, 100.4675": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "-37.7511, 100.96525": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "24.3175, 105.4325": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "18.0475, 111.2225": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "39.37, 107.285": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "38.675, 109.2324": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "-7.828, 90.302": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "26.4925, 107.435": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "31.3875, 97.025": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "17.15, 93.476": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "-7.74, 90.335": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "28.1444, 102.0137": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "25.835, 114.025": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E",
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "22.288, 126.568": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "38.79, 109.625": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "33.79, 110.215": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "13.736, 117.544": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-5B"
+        ],
+        "Include": false
+    },
+    "12.482, 119.074": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-5B"
+        ],
+        "Include": false
+    },
+    "39.4375, 99.7475": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "ZK-1A"
+        ],
+        "Include": false
+    },
+    "-11.1275, 88.325": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "ZK-1A"
+        ],
+        "Include": false
+    },
+    "29.915, 110.2825": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "14.722, 109.67878": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B",
+            "CZ-4B"
+        ],
+        "Include": true
+    },
+    "38.565, 107.4175": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "38.37, 107.78": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "37.5975, 109.55": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "11.3083, 88.8017": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "Ceres-1"
+        ],
+        "Include": false
+    },
+    "29.8775, 109.4525": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6"
+        ],
+        "Include": true
+    },
+    "-39.61, 94.2975": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6"
+        ],
+        "Include": true
+    },
+    "26.49, 107.435": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "25.7725, 113.48": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "29.9525, 110.0": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "16.53, 93.094": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "34.845, 111.535": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "-18.51, 155.99": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "19.166, 119.44": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7A"
+        ],
+        "Include": false
+    },
+    "18.758, 123.37": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7A"
+        ],
+        "Include": false
+    },
+    "32.8475, 97.6": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2D",
+            "CZ-2D",
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "37.42, 111.215": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "28.89, 109.405": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "-41.22, 94.29": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "KZ-1A",
+            "KZ-1A",
+            "KZ-1A"
+        ],
+        "Include": true
+    },
+    "29.8725, 109.445": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6"
+        ],
+        "Include": true
+    },
+    "-39.405, 94.4875": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6",
+            "CZ-6",
+            "CZ-6",
+            "CZ-6"
+        ],
+        "Include": true
+    },
+    "34.0225, 123.615": {
+        "Launch Site": "Yellow Sea",
+        "Rocket": [
+            "CZ-11H"
+        ],
+        "Include": false
+    },
+    "21.14, 134.595": {
+        "Launch Site": "Yellow Sea",
+        "Rocket": [
+            "CZ-11H"
+        ],
+        "Include": false
+    },
+    "-23.87, 164.448": {
+        "Launch Site": "Yellow Sea",
+        "Rocket": [
+            "CZ-11H"
+        ],
+        "Include": false
+    },
+    "32.7725, 97.4225": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "33.7875, 110.215": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "28.9, 108.855": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C",
+            "CZ-2C"
+        ],
+        "Include": true
+    },
+    "35.8225, 104.245": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "13.896, 117.452": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-5B"
+        ],
+        "Include": false
+    },
+    "12.548, 118.918": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-5B"
+        ],
+        "Include": false
+    },
+    "27.1875, 107.8825": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "21.98, 127.6": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "21.43, 128.6": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "19.5047, 107.2211": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-6A"
+        ],
+        "Include": false
+    },
+    "14.3843, 116.8386": {
+        "Launch Site": "WSLS",
+        "Rocket": [
+            "CZ-7"
+        ],
+        "Include": false
+    },
+    "36.1375, 104.235": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "14.3843, 116.8386 ": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "-8.87, 88.9725": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "Ceres-1"
+        ],
+        "Include": false
+    },
+    "8.8675, 88.9725": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "Ceres-1"
+        ],
+        "Include": false
+    },
+    "37.9325375, 110.414325": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "34.50595, 122.31235": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "29.2687375, 108.8283875": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F",
+            "CZ-2F"
+        ],
+        "Include": true
+    },
+    "39.4925, 100.105": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-11"
+        ],
+        "Include": false
+    },
+    "38.28, 99.39": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "KZ-11"
+        ],
+        "Include": false
+    },
+    "33.165, 109.61": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "30.38, 108.9625": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-2D"
+        ],
+        "Include": true
+    },
+    "37.2, 123.43": {
+        "Launch Site": "Yellow Sea",
+        "Rocket": [
+            "JieLong-3"
+        ],
+        "Include": false
+    },
+    "36.345, 123.305": {
+        "Launch Site": "Yellow Sea",
+        "Rocket": [
+            "JieLong-3"
+        ],
+        "Include": false
+    },
+    "-14.345, 118.4775": {
+        "Launch Site": "Yellow Sea",
+        "Rocket": [
+            "JieLong-3"
+        ],
+        "Include": false
+    },
+    "36.185, 104.2875": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "32.49, 107.075": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "19.3025, 115.1175": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "CZ-4C",
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "34.105, 98.21": {
+        "Launch Site": "JSLC",
+        "Rocket": [
+            "ZQ-2"
+        ],
+        "Include": false
+    },
+    "27.2825, 104.345": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-11"
+        ],
+        "Include": false
+    },
+    "22.0244, 122.8389": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-11"
+        ],
+        "Include": false
+    },
+    "-11.534, 171.534": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-11"
+        ],
+        "Include": false
+    },
+    "18.6107, 107.08374": {
+        "Launch Site": "TSLC",
+        "Rocket": [
+            "CZ-4C"
+        ],
+        "Include": true
+    },
+    "15.43, 113.265": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "11.134, 116.542": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    },
+    "11.05, 116.692": {
+        "Launch Site": "XSLC",
+        "Rocket": [
+            "CZ-3B/E"
+        ],
+        "Include": true
+    }
+}
