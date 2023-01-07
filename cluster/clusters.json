@@ -1,0 +1,1778 @@
+{
+    "Cluster 0": {
+        "Centre": [
+            -8.113200714285714,
+            93.98497785714285
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.14285714285714285,
+            0.14285714285714285,
+            0.0,
+            0.14285714285714285,
+            0.14285714285714285,
+            0.0
+        ],
+        "Launch Site": [
+            0.8571428571428571,
+            0.0,
+            0.0,
+            0.0,
+            0.14285714285714285
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "Hyperbola-1",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "ZK-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "Ceres-1",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "JieLong-3",
+                "Launch Site": "Yellow Sea"
+            }
+        ]
+    },
+    "Cluster 1": {
+        "Centre": [
+            33.261383928571426,
+            110.02546428571428
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.2857142857142857,
+            0.0,
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.14285714285714285,
+            0.0,
+            0.07142857142857142,
+            0.07142857142857142,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.21428571428571427,
+            0.7857142857142857,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-6",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-6A",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            }
+        ]
+    },
+    "Cluster 2": {
+        "Centre": [
+            27.875391666666655,
+            102.08336083333332
+        ],
+        "Rocket": [
+            0.06666666666666667,
+            0.0,
+            0.16666666666666666,
+            0.3,
+            0.0,
+            0.4,
+            0.03333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.03333333333333333,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.03333333333333333,
+            0.0,
+            0.9666666666666667,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3C/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-11",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-11",
+                "Launch Site": "XSLC"
+            }
+        ]
+    },
+    "Cluster 3": {
+        "Centre": [
+            19.035266071428573,
+            109.65949964285713
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.07142857142857142,
+            0.07142857142857142,
+            0.14285714285714285,
+            0.0,
+            0.14285714285714285,
+            0.21428571428571427,
+            0.14285714285714285,
+            0.07142857142857142,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.0,
+            0.2857142857142857,
+            0.14285714285714285,
+            0.5714285714285714,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-7",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-7A",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-8A",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-6A",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-7",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-5B",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-7A",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-5B",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-6A",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-7",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "TSLC"
+            }
+        ]
+    },
+    "Cluster 4": {
+        "Centre": [
+            -17.971333333333334,
+            163.99066666666667
+        ],
+        "Rocket": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-11H",
+                "Launch Site": "Yellow Sea"
+            },
+            {
+                "Rocket": "CZ-11",
+                "Launch Site": "XSLC"
+            }
+        ]
+    },
+    "Cluster 5": {
+        "Centre": [
+            38.91079575,
+            107.5092875
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            }
+        ]
+    },
+    "Cluster 6": {
+        "Centre": [
+            34.93659375,
+            122.92165625000001
+        ],
+        "Rocket": [
+            0.0,
+            0.25,
+            0.0,
+            0.0,
+            0.375,
+            0.125,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.25,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.375,
+            0.0,
+            0.125,
+            0.0,
+            0.5
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-11H",
+                "Launch Site": "Yellow Sea"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-11H",
+                "Launch Site": "Yellow Sea"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "JieLong-3",
+                "Launch Site": "Yellow Sea"
+            },
+            {
+                "Rocket": "JieLong-3",
+                "Launch Site": "Yellow Sea"
+            }
+        ]
+    },
+    "Cluster 7": {
+        "Centre": [
+            26.10891875,
+            113.9489515625
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.0,
+            0.0625,
+            0.0625,
+            0.75,
+            0.0625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0625,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.0625,
+            0.0625,
+            0.875,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3C/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            }
+        ]
+    },
+    "Cluster 8": {
+        "Centre": [
+            39.469447222222215,
+            100.21005555555557
+        ],
+        "Rocket": [
+            0.1111111111111111,
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2222222222222222,
+            0.3333333333333333,
+            0.1111111111111111,
+            0.0
+        ],
+        "Launch Site": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-11",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "ZK-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "KZ-11",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "KZ-11",
+                "Launch Site": "JSLC"
+            }
+        ]
+    },
+    "Cluster 9": {
+        "Centre": [
+            14.716013461538463,
+            92.63227423076924
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.07692307692307693,
+            0.0,
+            0.07692307692307693,
+            0.6153846153846154,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.15384615384615385,
+            0.07692307692307693,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.9230769230769231,
+            0.0,
+            0.07692307692307693,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "Hyperbola-1",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "Ceres-1",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "Ceres-1",
+                "Launch Site": "JSLC"
+            }
+        ]
+    },
+    "Cluster 10": {
+        "Centre": [
+            -37.997821428571434,
+            95.57425357142856
+        ],
+        "Rocket": [
+            0.14285714285714285,
+            0.0,
+            0.42857142857142855,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2857142857142857,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.5714285714285714,
+            0.42857142857142855,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-11",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-6",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-6",
+                "Launch Site": "TSLC"
+            }
+        ]
+    },
+    "Cluster 11": {
+        "Centre": [
+            36.06173888888889,
+            104.2863527777778
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.0,
+            0.1111111111111111,
+            0.7777777777777778,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            }
+        ]
+    },
+    "Cluster 12": {
+        "Centre": [
+            20.988799999999998,
+            127.80798749999998
+        ],
+        "Rocket": [
+            0.08333333333333333,
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.5833333333333334,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.25,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.0,
+            0.0,
+            0.6666666666666666,
+            0.25,
+            0.08333333333333333
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-7A",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-7A",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-7A",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-11H",
+                "Launch Site": "Yellow Sea"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-11",
+                "Launch Site": "XSLC"
+            }
+        ]
+    },
+    "Cluster 13": {
+        "Centre": [
+            35.26236145833334,
+            98.54040625
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.08333333333333333,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333,
+            0.0,
+            0.08333333333333333
+        ],
+        "Launch Site": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "ZQ-2",
+                "Launch Site": "JSLC"
+            }
+        ]
+    },
+    "Cluster 14": {
+        "Centre": [
+            38.200733258750006,
+            110.062240625
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.125,
+            0.125,
+            0.625,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.125,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.625,
+            0.375,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            }
+        ]
+    },
+    "Cluster 15": {
+        "Centre": [
+            13.86030125,
+            110.58695162499998
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.25,
+            0.0,
+            0.25,
+            0.375,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.125,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.0,
+            0.625,
+            0.25,
+            0.125,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-8A",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            }
+        ]
+    },
+    "Cluster 16": {
+        "Centre": [
+            14.676870312500004,
+            117.44789375
+        ],
+        "Rocket": [
+            0.0,
+            0.0625,
+            0.0,
+            0.0,
+            0.0,
+            0.125,
+            0.0,
+            0.0,
+            0.125,
+            0.25,
+            0.0,
+            0.0,
+            0.3125,
+            0.125,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.125,
+            0.0,
+            0.125,
+            0.6875,
+            0.0625
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-7A",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-11H",
+                "Launch Site": "Yellow Sea"
+            },
+            {
+                "Rocket": "CZ-7",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-7",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-7",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-7",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-5B",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-5B",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-7A",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-5B",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-5B",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-7",
+                "Launch Site": "WSLS"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            }
+        ]
+    },
+    "Cluster 17": {
+        "Centre": [
+            32.222410416666655,
+            97.91207708333332
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.25,
+            0.3333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "JSLC"
+            }
+        ]
+    },
+    "Cluster 18": {
+        "Centre": [
+            26.719605,
+            107.43156083333332
+        ],
+        "Rocket": [
+            0.03333333333333333,
+            0.0,
+            0.13333333333333333,
+            0.3,
+            0.0,
+            0.4666666666666667,
+            0.03333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.03333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.0,
+            0.03333333333333333,
+            0.9666666666666667,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-11",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3C/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-6",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-3B/E",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "XSLC"
+            }
+        ]
+    },
+    "Cluster 19": {
+        "Centre": [
+            29.925305735294113,
+            109.57114720588234
+        ],
+        "Rocket": [
+            0.0,
+            0.0,
+            0.058823529411764705,
+            0.35294117647058826,
+            0.058823529411764705,
+            0.0,
+            0.0,
+            0.17647058823529413,
+            0.058823529411764705,
+            0.0,
+            0.23529411764705882,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.058823529411764705,
+            0.0,
+            0.0
+        ],
+        "Launch Site": [
+            0.058823529411764705,
+            0.9411764705882353,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Raw Data": [
+            {
+                "Rocket": "CZ-6",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-6",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-4C",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-4B",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-6",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "KZ-1A",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-6",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2C",
+                "Launch Site": "TSLC"
+            },
+            {
+                "Rocket": "CZ-2F",
+                "Launch Site": "JSLC"
+            },
+            {
+                "Rocket": "CZ-2D",
+                "Launch Site": "TSLC"
+            }
+        ]
+    }
+}
