@@ -42,7 +42,7 @@ def forward(X: torch.Tensor) -> torch.Tensor:
     a4 = z
     return a4
     
-dataLoader = DataLoader(dataset=dataset, batch_size=8, shuffle=True)
+dataLoader = DataLoader(dataset=dataset, batch_size=16, shuffle=True)
 
 for epoch in range(5000):
     x: torch.Tensor
@@ -51,13 +51,7 @@ for epoch in range(5000):
         X = x.transpose(0, 1)
         Y = y.transpose(0, 1)
         
-        a1 = (w1.mm(X)+b1).relu()
-        a2 = (w2.mm(a1)+b2).relu()
-        # a3 = (w3.mm(a2)+b3).relu()
-        n = (w4.mm(a2)+b4)
-        n1 = n-n.min()
-        z = n1/n1.max()
-        Y_Pre = z
+        Y_Pre = forward(X)
         
         loss = torch.nn.CrossEntropyLoss()
         l = loss.forward(Y_Pre, Y)
@@ -99,8 +93,8 @@ for epoch in range(5000):
                 types[resultStr] = 0
                 if(decoder.match(preResult, dataResult)):
                     correctCount += 1
-                else:
-                    print(preResult, resultStr, decoder(dataResult), len(types))
+                # else:
+                    # print(preResult, resultStr, decoder(dataResult), len(types))
             
     print(f'epoch: {epoch}; accuracy: {correctCount}/{len(dataset)}')
         
