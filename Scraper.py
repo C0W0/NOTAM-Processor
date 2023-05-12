@@ -9,8 +9,9 @@ import re
 #constants
 READFILE = False
 WRITEFILE = False
-CONCISE_MODE = True
-keyWords = ['A TEMPORARY RESTRICTED AREA', 'A TEMPORARY DANGER AREA', 'TEMPO DANGER AREA', 'AERO SPACE FLT', 'AEROSPACE', 'SFC-UNL']
+CONCISE_MODE = False
+keyWords = ['TEMPORARY RESTRICTED AREA', 'TEMPORARY DANGER AREA', 'TEMPO DANGER AREA', 'AERO SPACE', 'AEROSPACE', 'SFC-UNL', 'ROCKET LAUNCH']
+excludeWords = ['BALLOON', 'KSLV', 'SOUTH WALES', 'SHAR RANGE', 'AMERICA']
 months = {1:'JAN', 2:'FEB', 3:'MAR', 4:'APR', 5:'MAY', 6:'JUN', 7:'JUL', 8:'AUG', 9:'SEP', 10:'OCT', 11:'NOV', 12:'DEC'}
 firDomestic = {'Lanzhou': 'ZLHW', 'Kunming': 'ZPKM', 'Wuhan': 'ZHWH', 'GuangZhou': 'ZGZU', 'Shanghai': 'ZSHA', 'Beijing': 'ZBPE', 'Shanghai': 'ZSHA', 'Sanya': 'ZJSA', 'Hongkong': 'VHHK'}
 firInt = {'Yangon': 'VYYF', 'Chennai': 'VOMF', 'Melbourne': 'YMMM', 'Fukuoka': 'RJJJ', 'Ho-Chi-Minh': 'VVHM', 'Hanoi': 'VVHN', 'Colombo': 'VCCF', 'Manila': 'RPHI', 
@@ -81,7 +82,7 @@ class MyHTMLParser(html.parser.HTMLParser):
 
 #process NOTAM into airclosure
 class AirClosure:
-    def __init__(self, notamCorrected):
+    def __init__(self, notamCorrected: str):
         self.source = notamCorrected
         closure = notamCorrected.split("CREATED")[0]
 
@@ -89,14 +90,16 @@ class AirClosure:
         self.startDate = self.parse_date(dates[0].split(" "))
         self.endDate = self.parse_date(dates[1].split(" "))
 
+        closureNospace: str = closure.replace(' ', '')
+
         percisionL: int = 0
         # format 1 (e.g. N165049E0933636)
-        poses = re.findall('[NS]\d{6}[EW]\d{7}', closure)
+        poses = re.findall('[NS]\d{6}[EW]\d{7}', closureNospace)
         percisionL = 6
 
         # format 2 (e.g. N3754E09916)
         if(len(poses) == 0):
-            poses = re.findall('[NS]\d{4}[EW]\d{5}', closure)
+            poses = re.findall('[NS]\d{4}[EW]\d{5}', closureNospace)
             percisionL = 4
 
         # format 3 (e.g. S303437 E0843459 / S22 53 00 E163 20 00)
@@ -110,9 +113,9 @@ class AirClosure:
 
         # format 4 (e.g. 191727N1071251E / 184400N 1240300E)
         if(len(poses) == 0):
-            poses = re.findall('\d{6}[NS]\d{7}[EW]', closure)
+            poses = re.findall('\d{6}[NS]\d{7}[EW]', closureNospace)
             if(len(poses) == 0):
-                poses = re.findall('\d{6}[NS] \d{7}[EW]', closure)
+                poses = re.findall('\d{6}[NS] \d{7}[EW]', closureNospace)
                 
             for i in range(0, len(poses)):
                 pos: str = poses[i].replace(' ', '')
@@ -121,9 +124,9 @@ class AirClosure:
 
         # format 5 (e.g. 0244N09052E / 3910S 09508E)
         if(len(poses) == 0):
-            poses = re.findall('\d{4}[NS]\d{5}[EW]', closure)
+            poses = re.findall('\d{4}[NS]\d{5}[EW]', closureNospace)
             if(len(poses) == 0):
-                poses = re.findall('\d{4}[NS] \d{5}[EW]', closure)
+                poses = re.findall('\d{4}[NS] \d{5}[EW]', closureNospace)
 
             for i in range(0, len(poses)):
                 pos: str = poses[i].replace(' ', '')
@@ -240,6 +243,19 @@ def get_all_notams():
 
     return notamList
 
+def check_keyword(info: str) -> bool:
+    valid: bool = False
+    for w in keyWords:
+        if(w in info):
+            valid = True
+            continue
+    
+    for w in excludeWords:
+        if(w in info):
+            valid = False
+
+    return valid
+
 def main():
     notamList: list[tuple] = get_all_notams()
 
@@ -247,8 +263,7 @@ def main():
     matchList = []
     for pair in notamList:
         for info in pair[1]:
-            for w in keyWords:
-                if(w in info): matchList.append((pair[0], info))
+            if(check_keyword(info)): matchList.append((pair[0], info))
 
     #pre-process the NOTAM to retrieve date
     for i in range(0, len(matchList)):

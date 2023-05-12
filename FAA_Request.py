@@ -1,11 +1,11 @@
 import requests
 import json
 import math
-from Scraper import firDomestic, firInt, launchZones, keyWords, months, AirClosure
+from Scraper import firDomestic, firInt, launchZones, keyWords, months, AirClosure, check_keyword
 
 URL = 'https://notams.aim.faa.gov/notamSearch/search'
-ARCHIVE_DATE = '2020-12-05'
-LAUNCH_SITE = 'XSLC'
+ARCHIVE_DATE = '2023-04-06'
+LAUNCH_SITE = 'JSLC'
 
 def main():
     jsonFile = open(file='payloads.json', mode='r')
@@ -35,13 +35,7 @@ def main():
         for entry in notamsRaw:
             message = entry['icaoMessage'].replace('\n', ' ')
 
-            isInfoRelevant = False
-            for keyword in keyWords:
-                if(keyword in message):
-                    isInfoRelevant = True
-                    break
-
-            if(not isInfoRelevant):
+            if(not check_keyword(message)):
                 continue
 
             dateStart = reformatDate(entry['startDate'])
