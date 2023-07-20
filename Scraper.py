@@ -12,8 +12,8 @@ WRITEFILE = False
 CONCISE_MODE = False
 keyWords = ['TEMPORARY RESTRICTED AREA', 'TEMPORARY DANGER AREA',
             'TEMPO DANGER AREA', 'AERO SPACE', 'AEROSPACE', 'SFC-UNL', 'ROCKET LAUNCH']
-excludeWords = ['BALLOON', 'DRONE', 'KSLV', 'KLSV', 'SHAR RANGE',
-                'AMERICA', 'AUSTRALIA', 'DPRK', 'KOREA', 'MISSILE']
+excludeWords = ['BALLOON', 'DRONE', 'KSLV', 'KLSV', 'SHAR RANGE', 'AMERICA',
+                'AUSTRALIA', 'DPRK', 'KOREA', 'MISSILE', 'RUSSIA', 'METEOROLOGICAL']
 months = {1: 'JAN', 2: 'FEB', 3: 'MAR', 4: 'APR', 5: 'MAY', 6: 'JUN',
           7: 'JUL', 8: 'AUG', 9: 'SEP', 10: 'OCT', 11: 'NOV', 12: 'DEC'}
 firDomestic = {'Lanzhou': 'ZLHW', 'Kunming': 'ZPKM', 'Wuhan': 'ZHWH', 'GuangZhou': 'ZGZU',
@@ -129,7 +129,7 @@ class AirClosure:
         self.source = notamCorrected
         closure = notamCorrected.split("CREATED")[0]
 
-        dates = re.findall('\d{2}\s[A-Z]{3}\s\d{2}:\d{2}\s\d{4}', closure)
+        dates = re.findall('\d{2}\s[A-Z]{3}\s\d{2}:\d{2}\s\d{4}', closure.replace('EST', ''))
         self.startDate = self.parse_date(dates[0].split(" "))
         self.endDate = self.parse_date(dates[1].split(" "))
 
