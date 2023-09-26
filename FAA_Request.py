@@ -4,8 +4,8 @@ import math
 from Scraper import firDomestic, firInt, launchZones, keyWords, months, AirClosure, check_keyword
 
 URL = 'https://notams.aim.faa.gov/notamSearch/search'
-ARCHIVE_DATE = '2023-04-06'
-LAUNCH_SITE = 'JSLC'
+ARCHIVE_DATE = '2023-09-16'
+LAUNCH_SITE = 'XSLC'
 
 def main():
     jsonFile = open(file='payloads.json', mode='r')
@@ -28,21 +28,32 @@ def main():
     for i in range(count):
         fir = firList[i]
         params['archiveDesignator'] = fir
+        offset = 0
+        shouldContinue = True
 
-        response = requests.post(url=URL, params=params)
+        while shouldContinue:
+            params['offset'] = str(offset)
 
-        notamsRaw: list[dict[str, str]] = response.json()['notamList']
-        for entry in notamsRaw:
-            message = entry['icaoMessage'].replace('\n', ' ')
+            response = requests.post(url=URL, params=params)
+            notamsRaw: list[dict[str, str]] = response.json()['notamList']
 
-            if(not check_keyword(message)):
-                continue
+            for entry in notamsRaw:
+                message = entry['icaoMessage'].replace('\n', ' ')
 
-            dateStart = reformatDate(entry['startDate'])
-            dateEnd = reformatDate(entry['endDate'])
+                if(not check_keyword(message)):
+                    continue
 
-            notamFull = f'{message} {dateStart} UNTIL {dateEnd}'
-            notamsParsed.append(notamFull)
+                dateStart = reformatDate(entry['startDate'])
+                dateEnd = reformatDate(entry['endDate'])
+
+                notamFull = f'{message} {dateStart} UNTIL {dateEnd}'
+                notamsParsed.append(notamFull)
+            
+            if len(notamsRaw) == 30:
+                offset += 30
+                shouldContinue = True
+            else:
+                shouldContinue = False
     
         progress = math.ceil(50*i/count)
         print(f'[{"="*progress}>{" "*(49-progress)}]', end='\r')
