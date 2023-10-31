@@ -16,16 +16,16 @@ excludeWords = ['BALLOON', 'DRONE', 'KSLV', 'KLSV', 'SHAR RANGE', 'AMERICA',
                 'AUSTRALIA', 'DPRK', 'KOREA', 'MISSILE', 'RUSSIA', 'METEOROLOGICAL']
 months = {1: 'JAN', 2: 'FEB', 3: 'MAR', 4: 'APR', 5: 'MAY', 6: 'JUN',
           7: 'JUL', 8: 'AUG', 9: 'SEP', 10: 'OCT', 11: 'NOV', 12: 'DEC'}
-firDomestic = {'Lanzhou': 'ZLHW', 'Kunming': 'ZPKM', 'Wuhan': 'ZHWH', 'GuangZhou': 'ZGZU',
-               'Shanghai': 'ZSHA', 'Beijing': 'ZBPE', 'Shanghai': 'ZSHA', 'Sanya': 'ZJSA', 'Hongkong': 'VHHK'}
+firDomestic = {'Lanzhou': 'ZLHW', 'Kunming': 'ZPKM', 'Wuhan': 'ZHWH', 'GuangZhou': 'ZGZU', 'Shanghai': 'ZSHA', 
+               'Beijing': 'ZBPE', 'Shanghai': 'ZSHA', 'Sanya': 'ZJSA', 'Hongkong': 'VHHK', 'Taipei': 'RCAA'}
 firInt = {'Yangon': 'VYYF', 'Chennai': 'VOMF', 'Melbourne': 'YMMM', 'Fukuoka': 'RJJJ', 'Ho-Chi-Minh': 'VVHM', 'Hanoi': 'VVHN', 'Colombo': 'VCCF', 'Manila': 'RPHI',
-          'Oakland': 'KZAK', 'Brisbane': 'YBBB', 'InCheon': 'RKRR', 'Nadi': 'NFFF'}
+          'Oakland': 'KZAK', 'Brisbane': 'YBBB', 'InCheon': 'RKRR', 'Nadi': 'NFFF', 'Solomon': 'AGGG'}
 launchZones = {
     'JSLC': [firDomestic['Lanzhou'], firDomestic['Wuhan'], firDomestic['Shanghai'], firDomestic['Kunming'], firInt['Yangon'], firInt['Chennai'], firInt['Colombo'], firInt['Melbourne'], firInt['Brisbane'], firInt['Manila'], firDomestic['Hongkong']],
-    'XSLC': [firDomestic['Kunming'], firDomestic['GuangZhou'], firDomestic['Sanya'], firInt['Fukuoka'], firInt['Nadi']],
+    'XSLC': [firDomestic['Kunming'], firDomestic['GuangZhou'], firDomestic['Sanya'], firInt['Fukuoka'], firDomestic['Taipei'], firInt['Nadi']],
     'TSLC': [firDomestic['Beijing'], firDomestic['Lanzhou'], firDomestic['Wuhan'], firDomestic['Kunming'], firInt['Ho-Chi-Minh'], firInt['Hanoi'], firInt['Melbourne']],
     'WSLS': [firDomestic['Sanya'], firInt['Manila'], firInt['Oakland'], firInt['Ho-Chi-Minh']],
-    'Yellow Sea': [firDomestic['Shanghai'], firInt['InCheon'], firInt['Manila'], firInt['Nadi'], firInt['Fukuoka'], firInt['Brisbane']]
+    'Yellow Sea': [firDomestic['Shanghai'], firInt['InCheon'], firInt['Manila'], firInt['Nadi'], firInt['Fukuoka'], firInt['Brisbane'], firInt['Solomon']]
 }
 regexPatterns = [
     {
