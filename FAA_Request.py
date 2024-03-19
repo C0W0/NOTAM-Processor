@@ -1,10 +1,11 @@
 import requests
 import json
 import math
+from tqdm import tqdm
 from Scraper import firDomestic, firInt, launchZones, keyWords, months, AirClosure, check_keyword
 
 URL = 'https://notams.aim.faa.gov/notamSearch/search'
-ARCHIVE_DATE = '2023-09-16'
+ARCHIVE_DATE = '2024-03-12'
 LAUNCH_SITE = 'XSLC'
 
 def main():
@@ -24,8 +25,7 @@ def main():
     count = len(firList)
 
     print('Fetching info...')
-    print(f'[{" "*50}]', end='\r')
-    for i in range(count):
+    for i, _ in enumerate(tqdm(range(count))):
         fir = firList[i]
         params['archiveDesignator'] = fir
         offset = 0
@@ -53,12 +53,7 @@ def main():
                 offset += 30
                 shouldContinue = True
             else:
-                shouldContinue = False
-    
-        progress = math.ceil(50*i/count)
-        print(f'[{"="*progress}>{" "*(49-progress)}]', end='\r')
-
-    print()
+                shouldContinue = False    
     resultFile = open('Historical_Data_P.txt', mode='w')
 
     for info in notamsParsed:

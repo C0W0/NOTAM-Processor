@@ -5,6 +5,7 @@ import mechanize._http
 import http.cookiejar
 import html.parser
 import re
+from tqdm import tqdm
 
 # constants
 READFILE = False
@@ -239,10 +240,8 @@ def get_all_notams():
     notamList = []
 
     print('Fetching info...')
-    print(f'[{" "*50}]', end='\r')
-
     count = len(allFir)
-    for i in range(count):
+    for i, _ in enumerate(tqdm(range(count))):
         fir = allFir[i]
         info = notamTool.get_notam_raw(fir)
 
@@ -250,11 +249,6 @@ def get_all_notams():
         myParser.feed(info)
 
         notamList.append((fir, myParser.dataSet))
-
-        progress = int(50*i/count)
-        print(f'[{"="*progress}>{" "*(49-progress)}]', end='\r')
-    print()
-
     return notamList
 
 
